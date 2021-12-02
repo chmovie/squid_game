@@ -1,0 +1,66 @@
+/* 첫 시작 로딩 페이지 */
+.loading_page {
+    height: 100vh;
+    text-align: center;
+    padding: 115px 0 173px;
+    padding: 11.867905056759546vh 0 17.853457172342621vh;
+}
+/* 로딩 페이지 로고 */
+.loading_page .loading_logo {
+    /* 기준 681 */
+    margin-bottom: 62px;
+    margin-bottom: 6.398348813209494vh;
+}
+/* 로딩 페이지 타이틀 메시지 영역 */
+.loading_page .title_message {
+    padding: 70px 0;
+    padding: 7.223942208462332vh 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+.loading_page .title_message h1 {
+    font-size: 48px;
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 54px;
+    margin-bottom: 5.572755417956656vh;
+}
+.loading_page .title_message p {
+    font-size: 32px;
+    font-size: 1.666666666666667vw;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-bottom: 3.095975232198142vh;
+}
+.loading_page .title_message p:last-child {
+    padding-bottom: 0;
+}
+/* 참가 의사 입력 영역 */
+.loading_page .message_input {
+    margin-top: 44px;
+    margin-top: 4.540763673890609vh;
+}
+.loading_page .message_input h2 {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 21px;
+    margin-bottom: 2.1671826625387vh;
+}
+.loading_page .message_input #game_want {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+    background: #000;
+    border: none;
+    text-align: center;
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

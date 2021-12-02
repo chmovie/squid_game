@@ -1,0 +1,28 @@
+@charset "utf-8";
+::selection {
+    background: #0f3935;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.w1600 {
+    width: 1600px;
+    width: 83.333333333333333%;
+    margin: 0 auto;
+}
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 1920px;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}

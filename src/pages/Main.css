@@ -1,0 +1,291 @@
+/* 메인 페이지 */
+.main_page {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    /* 위치기준값 */
+    position: relative;
+}
+.main_page>div {
+    padding: 60px 0 168px;
+    padding: 6.191950464396285vh 0 17.337461300309598vh;
+}
+/* 메인 페이지 로고 */
+.main_page .main_logo {
+    
+}
+/* 사용자 등록 및 로그인 영역 */
+.main_page .register {
+    width: 640px;
+    /* 1600 기준 */
+    width: 40%;
+    padding-top: 154px;
+    padding-top: 15.892672858617131vh;
+    text-align: center;
+
+}
+/* 타이틀 메시지 */
+.main_page .register h1 {
+    font-size: 42px;
+    font-size: 2.1875vw;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-bottom: 4.12796697626419vh;
+}
+/* 정보 입력 폼 */
+.main_page .register input {
+    width: 640px;
+    width: 100%;
+    height: 80px;
+    height: 8.25593395252838vh;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #84001a;
+    margin-bottom: 60px;
+    margin-bottom: 6.191950464396285vh;
+}
+.main_page .register input {
+    font-size: 32px;
+    font-size: 1.666666666666667vw;
+    font-weight: 400;
+    color: #cdcdcd;
+    text-align: center;
+
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_page .register input#play_btn {
+    background: #e94380;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.main_page .register input#play_btn:hover {
+    background: #ff005e;
+}
+/* 블라인드 */
+.blind {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    /* 포지션 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    /* 로딩시 hide */
+    display: none;
+}
+/* 참가 동의 팝업 */
+.main_page .register .consent_form {
+    width: 757px;
+    width: 39.427083333333333%;
+    height: 545px;
+    height: 56.243550051599587%;
+    background: #84001a;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    /* 포지션 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    padding: 60px 55px 60px 69px;
+    padding: 6.191950464396285vh 2.864583333333333% 6.191950464396285vh 3.59375%;
+    /* 로딩시 hide */
+    display: none;
+}
+.main_page .register .consent_form h2 {
+    font-size: 32px;
+    font-size: 1.666666666666667vw;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 66px;
+    padding-bottom: 6.811145510835913vh;
+}
+.main_page .register .consent_form ul {
+    text-align-last: left;
+}
+.main_page .register .consent_form ul li {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 46px;
+    padding-bottom: 4.747162022703819vh;
+}
+.main_page .register .consent_form ul li:last-child {
+    padding-bottom: 60px;
+    padding-bottom: 6.811145510835913vh;
+}
+.main_page .register .consent_form .player {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 46px;
+    padding-bottom: 4.747162022703819vh;
+}
+.main_page .register .consent_form .close_btn {
+    width: 120px;
+    width: 19.01743264659271%;
+    height: 45px;
+    height: 10.638297872340426%;
+    line-height: 45px;
+    line-height: 10.638297872340426%;
+    background: #333333;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 16px;
+
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    transition: background 0.5s;
+}
+.main_page .register .consent_form .close_btn p {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+}
+.main_page .register .consent_form .close_btn:hover {
+    background: #222222;
+}
+.main_page .register .consent_form .consent_btn {
+    width: 120px;
+    width: 19.01743264659271%;
+    height: 45px;
+    height: 10.638297872340426%;
+    line-height: 45px;
+    line-height: 10.638297872340426%;
+    background: #e94380;
+    border-radius: 20px;
+    cursor: pointer;
+
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    transition: background 0.5s;
+}
+.main_page .register .consent_form .consent_btn p {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+}
+.main_page .register .consent_form .consent_btn:hover {
+    background: #ff005e;
+}
+/* 도움말 안내 */
+.main_page .register .help {
+    /* 위치기준값 */
+    position: relative;
+}
+.main_page .register .help p {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #e94380;
+    cursor: pointer;
+}
+/* 호버시 보이는 도움말 안내 팝업 */
+.main_page .register .help .help_popup {
+    width: 304px;
+    width: 31.372549019607843%;
+    height: 112px;
+    height: 11.558307533539732vh;
+    background: #e94380;
+    padding-top: 10px;
+    padding-top: 1.031991744066047vh;
+    /* 포지션 */
+    position: absolute;
+    left: 502px;
+    left: 78.4375%;
+    top: 0;
+    /* 로딩시 hide */
+    opacity: 0;
+    cursor: default;
+}
+.main_page .register .help .help_popup th {
+    font-size: 16px;
+    font-size: 0.833333333333333vw;
+    font-weight: 400;
+    color: #fff;
+}
+.main_page .register .help .help_popup td {
+    font-size: 14px;
+    font-size: 0.729166666666667vw;
+    font-weight: 400;
+    color: #fff;
+}
+/* 도움말 호버시 안내 팝업 보이기 */
+.main_page .register .help p:hover ~ .help_popup {
+    opacity: 1;
+}
+
+/* 경고창 */
+.alert_form {
+    width: 400px;
+    width: 20.833333333333333%;
+    height: 300px;
+    height: 30.959752321981424%;
+    background: #84001a;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none;
+}
+.alert_form .alert {
+    font-size: 32px;
+    font-size: 1.666666666666667vw;
+    font-weight: 600;
+    color: #e94380;
+    margin-top: 60px;
+}
+.alert_form .alert_txt {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #cecece;
+    margin-top: 30px;
+}
+.alert_form .alert_btn {
+    width: 120px;
+    width: 30.150753768844221%;
+    height: 45px;
+    height: 15.100671140939597%;
+    line-height: 45px;
+    line-height: 4.643962848297214vh;
+    background: #333;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    transition: background 0.5s;
+}
+.alert_form .alert_btn p {
+    font-size: 21px;
+    font-size: 1.09375vw;
+    font-weight: 400;
+    color: #fff;
+}
+.alert_form .alert_btn:hover {
+    background: #000;
+}
